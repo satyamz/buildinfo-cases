@@ -11,5 +11,3 @@ case-2: Contents are identical and files in `Files` differ
 
 case-3: Contents differ and files in `Files` identical
 => Differences of Contents including `.buildinfo` differences
-
-

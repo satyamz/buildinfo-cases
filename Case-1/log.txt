@@ -1,0 +1,10 @@
+Expected ouput:
+
+satyam@satyamz:~/debian/cases/Case-1/buildinfo-cases/Case-1$ diffoscope --html case-1-output.html b1/aolserver4_4.5.1-18.0~reproducible1_amd64.changes b2/aolserver4_4.5.1-18.0~reproducible1_amd64.changes
+satyam@satyamz:~/debian/cases/Case-1/buildinfo-cases/Case-1$ ls
+b1  b2
+
+
+#It means no differences
+
+Actual output : case-1-actual-output.html

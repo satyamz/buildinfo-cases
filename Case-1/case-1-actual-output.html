@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/local/bin/diffoscope --html case1-output.html b1/aolserver4_4.5.1-18.0~reproducible1_amd64.changes b2/aolserver4_4.5.1-18.0~reproducible1_amd64.changes</title>
+  <style>
+    body {
+      background: white;
+      color: black;
+    }
+    .footer {
+      font-size: small;
+    }
+    .difference {
+      border: outset #888 1px;
+      background-color:rgba(0,0,0,.1);
+      padding: 0.5em;
+      margin: 0.5em 0;
+    }
+    .difference table {
+      table-layout: fixed;
+      width: 100%;
+      border: 0;
+    }
+    .difference th,
+    .difference td {
+      border: 0;
+    }
+    table.diff {
+      border: 0px;
+      border-collapse:collapse;
+      font-size:0.75em;
+      font-family: Lucida Console, monospace;
+    }
+    td.line {
+      color:#8080a0
+    }
+    th {
+      background: black;
+      color: white
+    }
+    tr.diffunmodified td {
+      background: #D0D0E0
+    }
+    tr.diffhunk td {
+      background: #A0A0A0
+    }
+    tr.diffadded td {
+      background: #CCFFCC
+    }
+    tr.diffdeleted td {
+      background: #FFCCCC
+    }
+    tr.diffchanged td {
+      background: #FFFFA0
+    }
+    ins, del {
+      background: #E0C880;
+      text-decoration: none
+    }
+    span.diffponct {
+      color: #B08080
+    }
+    .comment {
+      font-style: italic;
+    }
+    .source {
+      font-weight: bold;
+    }
+    .error {
+      border: solid black 1px;
+      background: red;
+      color: white;
+      padding: 0.2em;
+    }
+    .anchor {
+      margin-left: 0.5em;
+      font-size: 80%;
+      color: #333;
+      text-decoration: none;
+      display: none;
+    }
+    .diffheader:hover .anchor {
+      display: inline;
+    }
+    .ondemand {
+      text-align: center;
+    }
+  </style>
+  
+</head>
+<body>
+
+<div class='difference'>
+<div class='diffheader'>
+<div><span class='source'>b1/aolserver4_4.5.1-18.0~reproducible1_amd64.changes</span> vs.</div>
+<div><span class='source'>b2/aolserver4_4.5.1-18.0~reproducible1_amd64.changes</span>
+ <a class='anchor' href='#' name=''>¶</a>
+</div>
+</div>
+<div class='difference'>
+<div class='diffheader'>
+<div><span class='source'>Files<span>
+ <a class='anchor' href='#Files' name='Files'>¶</a>
+</div>
+</div>
+<table class="diff">
+
+<colgroup><col style="width: 3em;"/><col style="99%"/>
+
+<col style="width: 3em;"/><col style="99%"/></colgroup>
+
+<tr class="diffhunk"><td colspan="2">Offset 1, 8 lines modified</td>
+<td colspan="2">Offset 1, 8 lines modified</td></tr>
+
+<tr class="diffunmodified">
+<td colspan="2"> </td>
+<td colspan="2"> </td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">1 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​19be2eb1fe5522e332e2c​061f9081a7e<span class="diffponct">·</span>​26376<span class="diffponct">·</span>​debug<span class="diffponct">·</span>​extra<span class="diffponct">·</span>​aolserver4-​core-​dbgsym_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+<td class="diffline">1 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​19be2eb1fe5522e332e2c​061f9081a7e<span class="diffponct">·</span>​26376<span class="diffponct">·</span>​debug<span class="diffponct">·</span>​extra<span class="diffponct">·</span>​aolserver4-​core-​dbgsym_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">2 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​c60e95d67c32fdcfce87a​9606b1f18f8<span class="diffponct">·</span>​275376<span class="diffponct">·</span>​web<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4-​core_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+<td class="diffline">2 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​c60e95d67c32fdcfce87a​9606b1f18f8<span class="diffponct">·</span>​275376<span class="diffponct">·</span>​web<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4-​core_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">3 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​728aebec03e17122f7fd0​4d934121c98<span class="diffponct">·</span>​4896<span class="diffponct">·</span>​debug<span class="diffponct">·</span>​extra<span class="diffponct">·</span>​aolserver4-​daemon-​dbgsym_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+<td class="diffline">3 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​728aebec03e17122f7fd0​4d934121c98<span class="diffponct">·</span>​4896<span class="diffponct">·</span>​debug<span class="diffponct">·</span>​extra<span class="diffponct">·</span>​aolserver4-​daemon-​dbgsym_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">4 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​e3521e65dafef35c9528b​8e6a8b357a2<span class="diffponct">·</span>​164860<span class="diffponct">·</span>​web<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4-​daemon_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+<td class="diffline">4 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​e3521e65dafef35c9528b​8e6a8b357a2<span class="diffponct">·</span>​164860<span class="diffponct">·</span>​web<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4-​daemon_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">5 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​6ebbcc82d77d9d74f2461​8c6c7e1f575<span class="diffponct">·</span>​762892<span class="diffponct">·</span>​web<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4-​dev_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+<td class="diffline">5 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​6ebbcc82d77d9d74f2461​8c6c7e1f575<span class="diffponct">·</span>​762892<span class="diffponct">·</span>​web<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4-​dev_4.​5.​1-​18.​0~reproducible1_amd64​.​deb
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">6 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​199ca338b51fe0444dd7c​989a03f3648<span class="diffponct">·</span>​3060726<span class="diffponct">·</span>​doc<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4-​doc_4.​5.​1-​18.​0~reproducible1_all.​deb
+</td>
+<td class="diffline">6 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​199ca338b51fe0444dd7c​989a03f3648<span class="diffponct">·</span>​3060726<span class="diffponct">·</span>​doc<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4-​doc_4.​5.​1-​18.​0~reproducible1_all.​deb
+</td>
+</tr>
+
+<tr class="diffchanged">
+<td class="diffline">7 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​<del>518485d16009a1b533</del>b<del>d3​9</del>c<del>08a1837dc</del><span class="diffponct">·</span>​6609<span class="diffponct">·</span>​web<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4_4.​5.​1-​18.​0~reproducible1_amd64​.​buildinfo
+</td>
+<td class="diffline">7 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​<ins>a7223ffb932b349d92</ins>b<ins>47​8</ins>c<ins>6e4d2f4cd</ins><span class="diffponct">·</span>​6609<span class="diffponct">·</span>​web<span class="diffponct">·</span>​optional<span class="diffponct">·</span>​aolserver4_4.​5.​1-​18.​0~reproducible1_amd64​.​buildinfo
+</td>
+</tr>
+
+</table>
+</div>
+<div class='difference'>
+<div class='diffheader'>
+<div><span class='source'>aolserver4_4.5.1-18.0~reproducible1_amd64.buildinfo<span>
+ <a class='anchor' href='#aolserver4_4.5.1-18.0~reproducible1_amd64.buildinfo' name='aolserver4_4.5.1-18.0~reproducible1_amd64.buildinfo'>¶</a>
+</div>
+</div>
+<div class='difference'>
+<div class='diffheader'>
+<div><span class='source'>Installed-Build-Depends<span>
+ <a class='anchor' href='#aolserver4_4.5.1-18.0~reproducible1_amd64.buildinfo/Installed-Build-Depends' name='aolserver4_4.5.1-18.0~reproducible1_amd64.buildinfo/Installed-Build-Depends'>¶</a>
+</div>
+</div>
+<table class="diff">
+
+<colgroup><col style="width: 3em;"/><col style="99%"/>
+
+<col style="width: 3em;"/><col style="99%"/></colgroup>
+
+<tr class="diffhunk"><td colspan="2">Offset 1, 12 lines modified</td>
+<td colspan="2">Offset 1, 12 lines modified</td></tr>
+
+<tr class="diffunmodified">
+<td class="diffline">1 </td>
+<td class="diffpresent">
+autoconf<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​2.​69-​10)​,​
+</td>
+<td class="diffline">1 </td>
+<td class="diffpresent">
+autoconf<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​2.​69-​10)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">2 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​automake<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​1:​1.​15-​4)​,​
+</td>
+<td class="diffline">2 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​automake<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​1:​1.​15-​4)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">3 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​autopoint<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​0.​19.​8.​1-​1)​,​
+</td>
+<td class="diffline">3 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​autopoint<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​0.​19.​8.​1-​1)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">4 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​autotools-​dev<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​20160430.​1)​,​
+</td>
+<td class="diffline">4 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​autotools-​dev<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​20160430.​1)​,​
+</td>
+</tr>
+
+<tr class="diffchanged">
+<td class="diffline">5 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​base-​files<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​9.​<del>5</del>)​,​
+</td>
+<td class="diffline">5 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​base-​files<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​9.​<ins>6</ins>)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">6 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​base-​passwd<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​3.​5.​39)​,​
+</td>
+<td class="diffline">6 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​base-​passwd<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​3.​5.​39)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">7 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​bash<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​4.​3-​14+b1)​,​
+</td>
+<td class="diffline">7 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​bash<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​4.​3-​14+b1)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">8 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​binutils<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​2.​26-​11)​,​
+</td>
+<td class="diffline">8 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​binutils<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​2.​26-​11)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">9 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​bsdmainutils<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​9.​0.​10)​,​
+</td>
+<td class="diffline">9 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​bsdmainutils<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​9.​0.​10)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">10 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​bsdutils<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​1:​2.​28-​5)​,​
+</td>
+<td class="diffline">10 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​bsdutils<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​1:​2.​28-​5)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">11 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​build-​essential<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​12.​2)​,​
+</td>
+<td class="diffline">11 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​build-​essential<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​12.​2)​,​
+</td>
+</tr>
+
+<tr class="diffunmodified">
+<td class="diffline">12 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​bzip2<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​1.​0.​6-​8)​,​
+</td>
+<td class="diffline">12 </td>
+<td class="diffpresent">
+<span class="diffponct">·</span>​bzip2<span class="diffponct">·</span>​(=<span class="diffponct">·</span>​1.​0.​6-​8)​,​
+</td>
+</tr>
+
+</table>
+</div>
+</div>
+</div>
+
+<div class="footer">Generated by diffoscope 51</div>
+</body>
+</html>
+
