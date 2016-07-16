@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sat, 16 Jul 2016 23:40:49 +0530
+Source: aolserver4
+Binary: aolserver4-daemon aolserver4-core aolserver4-dev aolserver4-doc
+Architecture: amd64 all
+Version: 4.5.1-18.0~reproducible1
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Francesco Paolo Lovergine <frankie@debian.org>
+Changed-By: Satyam Zode <satyam@satyamz>
+Description:
+ aolserver4-core - AOL web server version 4 - core libraries
+ aolserver4-daemon - AOL web server version 4 - program files
+ aolserver4-dev - AOL web server version 4 - development files
+ aolserver4-doc - AOL web server version 4 - documentation
+Changes:
+ aolserver4 (4.5.1-18.0~reproducible1) UNRELEASED; urgency=medium
+ .
+   * remove gzip timestamps from header
+Checksums-Sha1:
+ b578af250d0b344cbbbd1c53dbe8144a766e6999 26376 aolserver4-core-dbgsym_4.5.1-18.0~reproducible1_amd64.deb
+ 2e53543d04444b3f3f958ef867309897ccc8ec40 275376 aolserver4-core_4.5.1-18.0~reproducible1_amd64.deb
+ dab0733c78542ae64214a85e17a2bd1e1d2bbb2e 4896 aolserver4-daemon-dbgsym_4.5.1-18.0~reproducible1_amd64.deb
+ 909594bcd4c3da6c28e383ba79f5ba2bf96e5885 164860 aolserver4-daemon_4.5.1-18.0~reproducible1_amd64.deb
+ 78a698b9eab05b244ff41543cbf776a65119d4a2 763026 aolserver4-dev_4.5.1-18.0~reproducible1_amd64.deb
+ 1b635c28a25c2493b3dae4cdce0e7f68f06d92a4 3060718 aolserver4-doc_4.5.1-18.0~reproducible1_all.deb
+ 7113b09f42795e4f8f74217ee37bbf14b2015b38 6609 aolserver4_4.5.1-18.0~reproducible1_amd64.buildinfo
+Checksums-Sha256:
+ 02f54b7ca38c92ebd4b7bafdd60c512568f85021b4fcfcdcb7c84cafb60447a6 26376 aolserver4-core-dbgsym_4.5.1-18.0~reproducible1_amd64.deb
+ 029956f66776bf537180ff5effd99bb2928fe5867d31496b8dc61984d8b12c2d 275376 aolserver4-core_4.5.1-18.0~reproducible1_amd64.deb
+ 20ae166a51379580dfa0a41e514faac2b8adae1cafd0cfe328d7eb3f660c95cf 4896 aolserver4-daemon-dbgsym_4.5.1-18.0~reproducible1_amd64.deb
+ 78f7e2c04f8ff38ce5a086edd6d926f32afdf4826defd475e38e2898ba7bcaa8 164860 aolserver4-daemon_4.5.1-18.0~reproducible1_amd64.deb
+ 349bb131fa4d0d4b007f9da5269516410904f4a97b24037e84330d42bd6f443f 763026 aolserver4-dev_4.5.1-18.0~reproducible1_amd64.deb
+ 043b0feb2fa02e087366c07cfbe5e3135c59a3ceac389138faee53b29e0be183 3060718 aolserver4-doc_4.5.1-18.0~reproducible1_all.deb
+ 1a0dbb1f8047c016470962b0be93848273872200020bbb84201f9fa4829c0149 6609 aolserver4_4.5.1-18.0~reproducible1_amd64.buildinfo
+Files:
+ 19be2eb1fe5522e332e2c061f9081a7e 26376 debug extra aolserver4-core-dbgsym_4.5.1-18.0~reproducible1_amd64.deb
+ c60e95d67c32fdcfce87a9606b1f18f8 275376 web optional aolserver4-core_4.5.1-18.0~reproducible1_amd64.deb
+ 728aebec03e17122f7fd04d934121c98 4896 debug extra aolserver4-daemon-dbgsym_4.5.1-18.0~reproducible1_amd64.deb
+ e3521e65dafef35c9528b8e6a8b357a2 164860 web optional aolserver4-daemon_4.5.1-18.0~reproducible1_amd64.deb
+ b36ed833a9938912a5efcc627df0169c 763026 web optional aolserver4-dev_4.5.1-18.0~reproducible1_amd64.deb
+ 87193a294700a9dab327a28b5ff168c1 3060718 doc optional aolserver4-doc_4.5.1-18.0~reproducible1_all.deb
+ 097d50fb949f5de7c3959ec64231ee7d 6609 web optional aolserver4_4.5.1-18.0~reproducible1_amd64.buildinfo
